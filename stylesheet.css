@@ -1,0 +1,85 @@
+/* Style sheet for this exercise/website */
+
+  /* visited link */
+  .hoverEffect:hover{
+      color: #0000FF;
+    }
+    /* selected link */
+    .activeEffect:active {
+        color: #0000FF;
+    } 
+    
+    li a:hover {
+    color:#00f7ff;
+  } 
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#index h1 {
+    background-color: #FF5F9A;
+    color: #dddddd;
+}
+
+h2
+{
+    background-color: #D8D6D6;
+    color: #FA20F2;
+}
+
+h3{
+    background-color: #C7FF00;
+}
+
+.roseB
+{
+    background-color: #FF00B3;
+}
+
+/* Contact Page */
+#contact{
+    font-weight: 600;
+}
+#contact > H1 {
+    background-color: unset;
+    color: unset;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#contact ul {
+    background-color: #00D9F4;
+    list-style: circle;
+}
+#contact footer a:link{
+color:#ff00bf;
+}
+/* Index Page */
+#index ul
+{
+    list-style: none;
+    background-color: #00D9F4;
+    font-weight: 600;
+} 
+.lightTurq{
+    color: #1ADCF4;
+}
+
+.activeEffect a:active{
+   color: gold; 
+}
+footer a:visited {
+  color: gray;
+}
+
+/* #D6D7D6 Grey
+#FF5F9A Pink1
+#D8D6D6 Grey2 #FF00B3
+#FA20F2 Pink2 #EF59E6
+#FF00ED Pink3 #F248E8
+#FF00B3 Pink4 #FF00B3 P5: #FF07CB
+#C7FF00 limegreen
+#F62AED Pink5 
+#00D9F4 Turquise
+#1ADCF4 TGreen
+#5722B1 violet
+#5924F6 lightviolet #5826F6
+*/
